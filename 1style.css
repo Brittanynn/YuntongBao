@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'Playfair Display', serif;
+  src: url(PlayfairDisplay-BoldItalic.ttf);
+}
+
+@font-face {
+	font-family: 'Noto Serif', serif;
+	src: url(NotoSerif_Condensed-Black.ttf);
+}
+
+@font-face{
+	font-family: 'Roboto Mono', monospace;
+	src: url(RobotoMono-Bold.ttf);
+}
+
+@import
+url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+body {
+  background-color: black;
+  color: white;}
+
+h1{
+  color:White;
+	font-weight:bold;
+	font-family: 'Playfair Display', serif;
+}
+h2{
+	color:White
+	font-family: 'Roboto Mono', monospace;
+}
+
+
+
+#special{color:white;}
+
+.acdamic{color:#B95F89;}
+
+.blockquote{
+	font-family: 'Roboto Mono';
+  font-style:italic;
+}
+
+#institution{
+	text-decoration:none;
+}
+
+/*mouse over link*/
+a {
+  display: inline-block;
+}
+a{
+  color: white;
+}
+a:hover{
+	font-weight:bold;
+	color:Pink;
+}
